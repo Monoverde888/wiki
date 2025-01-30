@@ -61,9 +61,11 @@ Follow these general guidelines as you work on your maps:
 - Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right.
   In this case some audio editing might be required (see [Optional Audio Editing](#optional-audio-editing)).
 
-> Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/), usually will have the
-> highest quality source available. If the artist does not have a Bandcamp available, Google Play Music, Amazon Music and
+> Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/) or on [HDTracks](https://www.hdtracks.com),
+> will usually have the highest quality source available.
+> If the song is not available on those sites, Google Play Music, Amazon Music, and
 > iTunes are alternatives for high quality MP3 files.
+> Importing physical media is another option, but the audio quality depends on the type of media (CDs are recommended).
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
 of headache while mapping. Look at the difference in quality for the same song, at the same beat.
@@ -482,7 +484,7 @@ choice and make sure to use 0ms offset for all difficulties (since the song is a
 
 ::: warning NOTE
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
-lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord
+lower quality until the file meets the file size limit. ZIP files over 10 MB cannot be shared directly on Discord
 (without Nitro or Server Boost Level 2) for playtesting.
 :::
 

@@ -2,6 +2,7 @@
 layout: home
 titleTemplate: false
 description: The Beat Saber Modding Group Wiki. Learn how to mod Beat Saber, create custom content, and get involved in the community!
+markdownStyles: false
 
 hero:
   text: |
@@ -53,7 +54,7 @@ hero:
 <HomeLinks>
 
 - [Join the Discord server!](https://discord.gg/beatsabermods)
-- [Contact Us](https://bsmg.dev/contact) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
+- [Contact Us](./contact-us.md) - Offer your skills, sponsor us, appeal a server mute/ban, report a user, etc.
 - [BSMG Patreon](https://www.patreon.com/beatsabermods) - Support the BSMG Services!
 - [BSMG Store](https://bsmgstore.com/) - Help support us and get cool merch!
 - [BSMG Map Playlists](https://beatsaver.com/profile/4329735#playlists) - Contest and event maps in a convenient place.
@@ -62,14 +63,14 @@ hero:
 
 - [BeatMods](https://beatmods.com) - Repository of PC mods that are reflected in installers like Mod Assistant or BSManager.
 - [BeatSaver](https://beatsaver.com/) - Download custom songs here
-- [BeastSaber](https://bsaber.com/) - Reviews, articles, playlists, and more!
+- [BeastSaber](https://bsaber.com/) - Curation, articles, playlists, and more!
 - [ModelSaber](https://modelsaber.com/) - Download PC custom sabers, avatars, bloqs, and platforms!
 
 ---
 
 - [Qosmetics Discord](https://discord.gg/qosmetics) - Download Quest custom sabers, walls, and bloqs!
 - [QuestBoard Hub](https://discord.gg/d6DyW9v) - The Discord for all things about Quest BeatSaber!
-- [BeatLeader](https://www.beatleader.xyz/) - Custom map leaderboard, replays, and statistics
+- [BeatLeader](https://www.beatleader.xyz/) - Custom map leaderboards, replays, and statistics
 - [ScoreSaber](https://scoresaber.com/) - Custom map leaderboards
 - [Steam Store Page](https://store.steampowered.com/app/620980/Beat_Saber/)
 - [Oculus Store Page](https://www.oculus.com/experiences/rift/1304877726278670/)

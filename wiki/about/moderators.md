@@ -29,6 +29,10 @@ Fellow crippling Minecraft addict
 
 **Roles:** Moderator
 
+## BombardToo
+
+**Roles:** Moderator
+
 ## Burrito
 
 Ironically doesn't like burritos, thinks tacos are better (true facts)
@@ -43,15 +47,7 @@ Ironically doesn't like burritos, thinks tacos are better (true facts)
 
 </AboutLinks>
 
-## ezconfirmed
-
-**Roles:** Moderator
-
 ## fqrb
-
-**Roles:** Moderator
-
-## Gregi
 
 **Roles:** Moderator
 
@@ -67,13 +63,23 @@ Camellia is SourPls
 
 </AboutLinks>
 
+## iamded
+
+While I enjoy peace and quiet, I also enjoy looking out for people. I'm not dead.
+
+**Roles:** Support, Moderator
+
+<AboutLinks>
+
+[Github](https://github.com/IAMDEDJUSTTOGETFILES)
+
+</AboutLinks>
+
 ## iSmellFood
 
 **Roles:** Moderator
 
-## Kuru
-
-All they can say is that the R in Kuru stands for Rat
+## oli
 
 **Roles:** Moderator
 
@@ -82,24 +88,6 @@ All they can say is that the R in Kuru stands for Rat
 > My dad worked for years as an admin, but he got laid off when bots took over. He came home that night and told me we
 > had to move into the van, since we couldn't afford rent anymore, then he beat the shit out of me with jumper cables.
 > Shitposting should be legal.
-
-**Roles:** Moderator
-
-## rui2015
-
-Has no creativity and doesn't know what to put here. Is a cool person though.
-
-**Roles:** Moderator, Modder, Support
-
-<AboutLinks>
-
-[GitHub](https://github.com/FranciscoRibeiro03)
-[Ko-fi](https://ko-fi.com/rui2015)
-[PayPal](https://paypal.me/rui2015)
-
-</AboutLinks>
-
-## POV Sacrament
 
 **Roles:** Moderator
 
@@ -135,13 +123,19 @@ kinda vibing
 
 **Roles:** Moderator
 
-## BeigeAnimal (Retired)
+## === Retired ===
+
+### Amankins
+
+**Roles:** Moderator (Retired)
+
+### BeigeAnimal
 
 We had to whip this boy into a bit of shape but he's was one of the most effective moderators.
 He's not really specialized in any field but he's willing to lend a helping **provided they ask in the right channel.**
 Also hates sketchfab links.
 
-**Roles:** Moderator, 3D Artists
+**Roles:** Moderator (Retired), 3D Artists
 
 <AboutLinks>
 
@@ -150,11 +144,11 @@ Also hates sketchfab links.
 
 </AboutLinks>
 
-## Chara\_ (Retired)
+### Chara\_
 
 crippling destiny addiction
 
-**Roles:** Support, 3D Artists, Moderator
+**Roles:** Support, 3D Artists, Moderator (Retired)
 
 <AboutLinks>
 
@@ -164,11 +158,11 @@ crippling destiny addiction
 
 </AboutLinks>
 
-## DeeJay (Retired)
+### DeeJay
 
 Pepega
 
-**Roles:** Moderator
+**Roles:** Moderator (Retired)
 
 <AboutLinks>
 
@@ -176,17 +170,25 @@ Pepega
 
 </AboutLinks>
 
-## Guatapuri (Retired)
+### ezconfirmed
+
+**Roles:** Moderator (Retired)
+
+### Gregi
+
+**Roles:** Moderator (Retired)
+
+### Guatapuri
 
 "Came for the game, Stayed for the hugs"
 
-**Roles:** Mapper, Moderator
+**Roles:** Mapper, Moderator (Retired)
 
-## joelseph (Retired)
+### joelseph
 
 \+ joelseph
 
-**Roles:** Moderator
+**Roles:** Moderator (Retired)
 
 <AboutLinks>
 
@@ -194,11 +196,17 @@ Pepega
 
 </AboutLinks>
 
-## Maladaze (Retired)
+### Kuru
+
+All they can say is that the R in Kuru stands for Rat
+
+**Roles:** Moderator (Retired)
+
+### Maladaze
 
 Can't hit jumps
 
-**Roles:** Moderator
+**Roles:** Moderator (Retired)
 
 <AboutLinks>
 
@@ -206,17 +214,17 @@ Can't hit jumps
 
 </AboutLinks>
 
-## Nym (Retired)
+### Nym
 
 "i like the gaymes. Addicted to many, don't like any of them, send cat pics."
 
-**Roles:** Moderator
+**Roles:** Moderator (Retired)
 
-## Olaf (Retired)
+### Olaf
 
 Any stroopwafels?
 
-**Roles:** Moderator
+**Roles:** Moderator (Retired)
 
 <AboutLinks>
 
@@ -224,35 +232,52 @@ Any stroopwafels?
 
 </AboutLinks>
 
-## OneEyed (Retired)
+### OneEyed
 
 :emoji:
 
-**Roles:** Support, Moderator
+**Roles:** Support, Moderator (Retired)
 
-## Pyrowarfare (Retired)
+### POV Sacrament
+
+**Roles:** Moderator (Retired)
+
+### Pyrowarfare
 
 A BeastSaber admin who wrote the majority of content for [How to Playtest](../mapping/how-to-testplay.md), [Mapping Anxiety](../mapping/mapping-anxiety.md),
 and contibuted on various other pages. Be warned: you will be asked to talk about your feelings.
 
-**Roles:** Moderator, Mapping Support
+**Roles:** Moderator (Retired), Mapping Support
 
 <AboutLinks>
 
 [BeatSaver](https://beatsaver.com/uploader/5e99c7df3f476a0006596cdf)
-[BeastSaber](https://bsaber.com/members/pyrowarfare/)
 
 </AboutLinks>
 
-## Razor (Retired)
+### Razor
 
 Literally no clue what he's doing when it comes to coding, at all, but he can fix ploogin.
 
-**Roles:** Support, Moderator
+**Roles:** Support, Moderator (Retired)
 
 <AboutLinks>
 
 [Twitch](https://www.twitch.tv/sarpest_razor)
 [Donate](https://streamelements.com/sarpest_razor/tip)
+
+</AboutLinks>
+
+### rui2015
+
+Has no creativity and doesn't know what to put here. Is a cool person though.
+
+**Roles:** Moderator (Retired), Modder, Support
+
+<AboutLinks>
+
+[GitHub](https://github.com/FranciscoRibeiro03)
+[Ko-fi](https://ko-fi.com/rui2015)
+[PayPal](https://paypal.me/rui2015)
 
 </AboutLinks>
