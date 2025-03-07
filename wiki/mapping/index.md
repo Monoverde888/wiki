@@ -84,7 +84,6 @@ The UI and some processes have changed in the latest recommended editor, [MMA2](
 but the rest of the content is great!
 :::
 
-- [BennyDaBeast's Mapping Tutorials](https://bsaber.com/benny-custom-mapping/)
 - [Freeek's Mapping and Editor Tutorials](https://www.youtube.com/playlist?list=PLYeZR6d3zDPgDgWogOwMteL-5SQWAE14b)
 
 ## Audio Editing Resources
@@ -139,18 +138,46 @@ any extensions, but new features are being added.
 - [Beatmapper User Manual](https://beatmapper.app/docs/manual/getting-started)
 
 ::: tip Interested in making your own editor or converter?
-You may find the [Map Format Page](./map-format.md) and the
+You may find the [Map Format Page](./map-format) and the
 [SongCore Readme](https://github.com/Kylemc1413/SongCore/blob/master/README.md) helpful!
 :::
 
 ### Official Editor
 
 The official editor is developed and supported by Beat Games and pre-installed with the Steam VR or Oculus PC versions
-of Beat Saber.
+of Beat Saber. Quest Standalone Users will need to use the Oculus PC version of the game which is available for free as
+a cross buy.
 
 - [Official Editor Documentation](https://beatsaber.com/documentation.html)
+- [V3 Lighting Overview Video](https://www.youtube.com/watch?v=NJPPBvyHJjg) by **Bullet**
+
+#### Launching directly into the Official Editor
+
+You can follow this method to avoid getting into VR to edit maps.
+
+:::warning
+You may run into issues with mods when launching the game with this argument!
+:::
+
+For Steam:
+
+1. Right click Beat Saber.
+2. In the properties window type out `editor` in the Launch Options field and start the game.
+
+For Oculus PC:
+
+1. Right click on Beat Saber.exe and create a shortcut.
+2. Edit the Target to add "editor" to the end of it.
+   - Example: `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\Beat Saber.exe" editor`
 
 #### Migrating from Official Editor to a Community Editor
+
+> 3D editor instructions coming soon
+
+<details>
+<summary>
+Old 2D editor instructions (Beat Saber version 1.7.0 and below)
+</summary>
 
 :::warning NOTE
 These instructions are for the old 2D editor that was retired since Beat Saber version 1.8.0
@@ -177,6 +204,8 @@ Although it is recommended to start setup again following the [Quick Start](#map
 
 You are now ready to continue editing your map!
 
+</details>
+
 ### Data Loss Prevention and Cloud Storage
 
 Updating your game may remove all Custom Level data, one way you can prevent complete data loss is with [Symbolic Links!](https://en.wikipedia.org/wiki/Symbolic_link)
@@ -201,8 +230,8 @@ this to succeed.
 
 ### Additional Mapping Tools
 
-- [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
-  A convenient way to see how your map might look in game without the game.
+- [ArcViewer](https://allpoland.github.io/ArcViewer/) by **AllPoland**  
+  An open source 3D Beat Saber map previewer, designed to give users an accurate representation of Beat Saber maps.
 - [+1 Rabbit's Mapping Tools](https://skystudioapps.com/mapping-tools/) by **+1 Rabbit**  
   A suite of tools for mappers that includes:
   - **Schema Fixer:** Easily fix maps made in Mediocre Mapper Mk4.1 and Mk5 for upload to BeatSaver.
@@ -220,14 +249,16 @@ this to succeed.
   An error checker tool that focuses on finding issues with parity in a map.
 - [Map Check](https://kivalevan.github.io/BeatSaber-MapCheck/) by **Kival Evan**  
   An error checker tool that is much more versatile than the one built into MMA2.
-- [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
-  Easily compile a game playlist from a txt file containing BeatSaver map keys.
 
 #### Legacy Tools
 
 These tools may no longer be supported, compatible with the latest software, or relevant with current practices, but could
 still fulfill a niche use case.
 
+- [BS Viewer](https://skystudioapps.com/bs-viewer/) by **+1 Rabbit**  
+  A convenient way to see how your map might look in game without the game.
+- [noodleLister](https://github.com/bloodcloak/noodleLister#readme) by **Bloodcloak**  
+  Easily compile a game playlist from a text file containing BeatSaver map keys.
 - [BeatMerge](https://github.com/ZelonGames/BeatMerge#readme) by **DarkGrisen**  
   Ever thought that it is a lot of annoying work to make big maps with other people or to perfectly cut the audio files
   so you can merge them manually later? This tool allows you to merge two or more maps into one single super long map.
@@ -285,9 +316,17 @@ time to be reviewed and approved.
 
 ### Curation
 
-Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/getting-started/curation/#donts) to
-the #curation-request channel on the [BeastSaber Discord](https://discord.gg/VJZHUbt). Maps selected for curation are
-given extra visibility on the site and included in the Curator Recommended feed.
+The BeastSaber Curation team strives to recommend maps that meet a minimum quality standard and subjectively have that
+extra “fun factor” for that individual Curator.
+
+Mappers can submit high quality maps, free of [objective issues](https://bsaber.com/curation) by submitting a [request
+or recommendation](https://forms.gle/ppkhbA9TG4GmN3jS7). Once you've made your submission, you can track the status
+of the request in the [Curation Requests & Suggestions Queue](https://docs.google.com/spreadsheets/d/1IBZNJUae94FjJGMmnc94JsH3SN7iBufW-CzrU2zJPEk/edit?usp=sharing)
+
+Maps selected for curation are given extra visibility on BeatSaver; as well as BeastSaber where the 8 most recently
+published and curated maps are mirrored.
+
+Need to get in contact with the Curation Team? Join the [BeastSaber Discord Server](https://discord.gg/VJZHUbt)
 
 ### Modding & Ranking
 
@@ -341,8 +380,8 @@ is not difficult and will always be better at expressing the atmosphere of the s
 
 - [Lolighter](https://github.com/Loloppe/Lolighter#readme) by **Loloppe#6435** - Standalone program for automated lighting
   and has other features to modify your map.
-- [LiteMapper](https://litemapper.net/) by **ItsOrius** - A website that automatically generates lights based on pacing,
-  emphasis, and note placement. For more information on the algorithm check out the [Readme](https://github.com/ItsOrius/LiteMapper#readme).
+- [LiteMapper](https://litemapper.vercel.app/) by **clxud** - A website that automatically generates lights
+  based on pacing, emphasis, and note placement. Originally developed by [ItsOrius](https://github.com/ItsOrius/LiteMapper).
 - **Lightmap** - It is integrated into Mediocre Map Assistant 2 and can be accessed in the error checker menu.
 
 ## Playtesting
@@ -359,7 +398,7 @@ You **DO NOT** need to upload your map to BeatSaver in order for you or anyone e
 - If your map is using the 1.0 map format (your files are `.json` and `.ogg`) you must convert your map by
   **updating your editor**, opening and saving the map. See [Community Editors](#community-editors) for links to modern
   editors.
-- If your map is using the 2.0 or 3.0 map format (your files are .dat and `.ogg`/`.egg`) you're ready to test.
+- If your map is using the 2.0, 3.0, or 4.0 map format (your files are .dat and `.ogg`/`.egg`) you're ready to test.
 
 ### Testing on a PC
 
@@ -388,15 +427,18 @@ Your changes will be loaded without needing to restart the game!
 Follow these steps to test any of your maps made with a community editor using an Oculus Quest. You must have
 [SideQuest](https://sidequestvr.com) and [BMBF](https://bmbf.dev/stable) installed.
 
-1. Locate your WIP song folder on your PC.
-2. Establish a connection to your Quest from your PC with a USB cable.
-3. Open SideQuest on your PC and click the folder icon on the top right.
+:::warning NOTE
+When [downloading SideQuest](https://sidequestvr.com/setup-howto), be sure to download the `Advanced Installer`.
+:::
+
+1. Establish a connection to your Quest from your PC with a USB cable.
+2. Open SideQuest on your PC and click the folder icon on the top right.
    ![SideQuest Files](/.assets/images/beginners-guide/sqfiles.png)
-4. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongLoader/CustomWIPLevels`. If this folder does not exist,
+3. Navigate to `sdcard/ModData/com.beatgames.beatsaber/Mods/SongCore/CustomWIPLevels`. If this folder does not exist,
    you can create it yourself.
-5. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
+4. Upload your WIP song folder from your PC to that folder on your Quest with SideQuest.
    - **NOTE:** You need to upload the actual song folder, not a zip file!
-6. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
+5. Your map will now show up on the CustomWIPLevels song pack inside your game. Keep in mind that you will only be able to
    play your map using the practice mode, and not with the regular Play button!
 
 :::tip NOTE
@@ -483,7 +525,8 @@ Once your song has been mapped, lighted, and playtested and it's a finished prod
 - Please **DO NOT** upload an incomplete WIP map to BeatSaver!
   - Uploading to BeatSaver equates to "Putting it on the store shelf" and should **only** be your final version.
   - See the [Playtesting](#playtesting) section for instructions on testing your map.
-    :::
+
+:::
 
 1. [Create an account](https://beatsaver.com/register) on BeatSaver with a username/password or by logging in via Discord.
 2. Click the <kbd>+</kbd> icon in the top-right and click <kbd>`Upload Map`</kbd>.
@@ -608,10 +651,9 @@ This is the default error message, causes include:
 
 ### BeastSaber
 
-[BeastSaber](http://www.bsaber.com) is a song review and curation site with social features including reviewing and commenting
-on songs.
-All songs published on BeatSaver are mirrored to BeastSaber within 10-15 minutes. Additionally, maps
-deleted from BeatSaver may take up to a day to be removed from BeastSaber.
+[BeastSaber](http://www.bsaber.com) aims to be the hub of the Beat Saber community; featuring Curator map
+recommendations, featured map packs/playlists, essential articles for getting started with Beat Saber, and other
+community news and articles.
 
 ## [Credits](./mapping-credits.md)
 
