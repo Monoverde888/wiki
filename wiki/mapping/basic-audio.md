@@ -61,9 +61,11 @@ Follow these general guidelines as you work on your maps:
 - Use a YouTube rip **only** as a last resort. The bitrate is low and the volume is seldom right.
   In this case some audio editing might be required (see [Optional Audio Editing](#optional-audio-editing)).
 
-> Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/), usually will have the
-> highest quality source available. If the artist does not have a Bandcamp available, Google Play Music, Amazon Music and
+> Sites where you can buy the tracks/album, such as an artist's [Bandcamp](https://bandcamp.com/) or on [HDTracks](https://www.hdtracks.com),
+> will usually have the highest quality source available.
+> If the song is not available on those sites, Google Play Music, Amazon Music, and
 > iTunes are alternatives for high quality MP3 files.
+> Importing physical media is another option, but the audio quality depends on the type of media (CDs are recommended).
 
 By purchasing and using a high quality audio file, not only are you supporting your artist, but you save yourself a lot
 of headache while mapping. Look at the difference in quality for the same song, at the same beat.
@@ -250,15 +252,14 @@ Continue below for how to do that.
 
 #### Sync the Song to the Beat
 
-1. Select the Time Shift Tool (![Time Shift Tool](/.assets/images/mapping/timeshift.png){.inline}).
-2. Left click on the song track and hold, then drag the audio so that the first planned mapped note(s) in your song ends
-   up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro
+1. Left click on the top of the song track and hold, then drag the audio so that the first planned mapped note(s) in your
+   song ends up within the appropriate seconds (see timeline above the track) to avoid a "Hot Start" or too long intro
    (See [Plan Your First Notes](#plan-your-first-note) if you haven't already).
-3. Release to place the audio in the new position.
-4. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and
+2. Release to place the audio in the new position.
+3. Play back the audio in this position. The song will be out of sync, so find the closest beat in the click track and
    align your song to the beat (click track) by moving it backward or forwards in time by small increments. Zoom in for
    better accuracy. Repeat until it sounds spot on.
-5. When you think you've found the beats of the song to match the Click Track review the whole song to ensure that the
+4. When you think you've found the beats of the song to match the Click Track review the whole song to ensure that the
    BPM you have is the correct one and that the song is in the same fixed BPM throughout the whole song. If not, you might
    have gotten the wrong BPM, in which case try to tap out the BPM manually (again), see "Manual BPM Calculation".
 
@@ -482,7 +483,7 @@ choice and make sure to use 0ms offset for all difficulties (since the song is a
 
 ::: warning NOTE
 Audio file should not be larger than ~14 MB due to the BeatSaver 15 MB ZIP file limit. If this is the case export at a
-lower quality until the file meets the file size limit. ZIP files over 8 MB cannot be shared directly on Discord
+lower quality until the file meets the file size limit. ZIP files over 10 MB cannot be shared directly on Discord
 (without Nitro or Server Boost Level 2) for playtesting.
 :::
 

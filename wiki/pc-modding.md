@@ -27,9 +27,6 @@ Beat Saber will **NEVER** ask you to run it as Administrator.
 If you've downloaded and installed a mod and you get the
 User Account Control prompt, **DO NOT** click accept, and please report this. What you installed is a malicious mod!
 
-The only approved case is when activating/deactivating OneClick™ Install in Mod Assistant. Administrator access is required
-to register the program with your computer to handle OneClick™ Install links.
-
 If you're unsure if something you installed is malware or not, **_please ask someone in our discord_**.
 :::
 
@@ -54,31 +51,22 @@ Instead, you should follow the written guides here on the wiki or seek out help 
 :::
 
 :::tip NOTE
-The latest moddable Beat Saber version for PC is `1.31.1`. You can also downgrade to `1.29.1` if you prefer.
+The latest Beat Saber version may not be moddable, in this case you will have to downgrade to the latest moddable version.
 
 Visit the [Downgrading](#downgrading) section on this page for more information.
 :::
 
 ## Installers
 
-### Mod Assistant
-
-> **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER.**
-
-\***\*Run the game at least once\*\*** before trying to mod the game! This applies to reinstalling your game too.
-
-A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal and
-version checking! Get it on [Assistant's GitHub](https://github.com/Assistant/ModAssistant/releases/latest)
-
-![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
-
 ### BSManager
+
+> **THIS IS CURRENTLY THE RECOMMENDED MOD INSTALLER AND DOWNGRADER.**
 
 \***\*Make sure you own the game on Steam or Oculus (PCVR)\*\*** before trying to download Beat Saber!
 
 An all-in-one tool that lets you easily manage BeatSaber versions, maps, mods, and even more. Get it on [Zagrios' GitHub](https://github.com/Zagrios/bs-manager/releases/latest)
 
-![BSManager](/.assets/images/beginners-guide/bsmanager.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager.png)
 
 ### BeatSaberModManager
 
@@ -89,6 +77,13 @@ It strives to look more visually appealing and support both Windows and Linux, w
 Get it on [affederaffe's GitHub](https://github.com/affederaffe/BeatSaberModManager/releases/latest)
 
 ![BeatSaberModManager](/.assets/images/beginners-guide/beatsabermodmanager.png)
+
+### ModAssistant
+
+A simple Beat Saber Mod Installer similar to the mod manager, but with additional features such as mod removal
+and version checking! Get it on [BSMG's GitHub](https://github.com/bsmg/ModAssistant/releases/latest)
+
+![Mod Assistant](/.assets/images/beginners-guide/modassistant.png)
 
 ## How to get more songs
 
@@ -107,30 +102,31 @@ This folder is located in your game install: `Beat Saber/Beat Saber_Data/CustomL
 
 ### In-game Downloader
 
-The `BeatSaver Downloader` mod allows you to download maps in-game using the `MORE SONGS` menu button on
-the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com)
+The `BeatSaverDownloader` or `BetterSongSearch` mod allows you to download maps in-game using the `MORE SONGS` menu
+button on the `MODS` menu screen. This pulls maps directly from [BeatSaver](https://beatsaver.com).
+
+:::tip NOTE
+If you're using BetterSongSearch, the menu button might be called `BETTERSONGSEARCH` instead of `MORE SONGS`.
+:::
 
 ### BeatSaver
 
 [BeatSaver](https://beatsaver.com) is the master repository of custom songs made by the community.
 Many other tools and sites enhance the experience of downloading custom songs, but this site is where they are stored.
 To install songs downloaded from the site, unzip them into a folder and place it into `Beat Saber/Beat Saber_Data/CustomLevels`.
-You can also use the in-game downloader mod, the OneClick™ Install feature of Mod Assistant or BSManager, or in the "maps"
+You can also use the in-game downloader mod, the OneClick™ Install feature of BSManager, or in the "maps"
 tab of BSManager.
 
-To enable and use Mod Assistant's OneClick™ Install see the picture below:
-![Mod Assistant](/.assets/images/beginners-guide/modassistant-oneclick.png)
-
 To enable and use BSManager's OneClick™ Install see the picture below:
-![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.jpg)
+![BSManager](/.assets/images/beginners-guide/bsmanager-oneclick.png)
 
 ### Beast Saber
 
 [Beast Saber](https://www.bsaber.com) (bsaber.com) is a site that tries to help make finding fantastic maps to play easier.
-It does this by categorizing the thousands of songs on BeatSaver and lets you sort by a song's genre and many other
-attribute tags. It also has a full social feature where players can review songs and comment on them. One of the most used
-features is the "Curator Recommended" feature where a team plays through most songs released each day and recommends the
-ones that stand out, letting you [automatically download these in-game](https://bsaber.com/beatsync/).
+The most used feature is the "Recently Curated Maps" feed where a team of curators plays through most songs released
+each day and recommends the ones that meet a minimum quality standard and have that subjective "fun factor" for them.
+BeastSaber also features the most recent maps from verified mappers, a collection of Maps of the Week, and
+featured/curated map packs/playlists.
 
 ### Song Management Apps
 
@@ -142,8 +138,11 @@ You need to install the [PlaylistManager](https://github.com/rithik-b/PlaylistMa
 
 Then you can either:
 
-- Use the `Install Playlist` tool in the Options tab of Mod Assistant.
-- Place the playlist file into `Beat Saber/Playlists`, select it in-game, then hit download all songs.
+- Install playlists through the Maps tab in BSManager.
+  ::: tip NOTE
+  This feature is only on the alpha version of BSManager!
+  :::
+- Place the playlist file into `Beat Saber/Playlists`, select the playlist title header in-game, then hit download all songs.
 
 You should see the playlist next to the Custom Levels album's in-game. The mod also supports managing playlists in-game.
 
@@ -153,19 +152,22 @@ _Where is Beat Saber installed?_
 
 ### Default Location
 
-|        |                                                                              |
-| ------ | ---------------------------------------------------------------------------- |
-| Steam  | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
-| Oculus | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+|           |                                                                              |
+| --------- | ---------------------------------------------------------------------------- |
+| Steam     | `C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\`                  |
+| Oculus    | `C:\Program Files\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `C:\Users\[USERNAME]\BSManager\BSInstances\`                                 |
 
 ### Other Locations
 
 **If you have moved your install folder to a different drive, it might be in the location below.**
 Replace the drive letter `F` with the drive your game is installed on.
-| | |
-| --- | --- |
-| Steam | `F:\SteamLibrary\steamapps\common\Beat Saber\` |
-| Oculus | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+
+|           |                                                                |
+| --------- | -------------------------------------------------------------- |
+| Steam     | `F:\SteamLibrary\steamapps\common\Beat Saber\`                 |
+| Oculus    | `F:\Oculus\Software\Software\hyperbolic-magnetism-beat-saber\` |
+| BSManager | `F:\BSManager\BSInstances\`                                    |
 
 ## Manual Installation
 
@@ -213,50 +215,56 @@ If it is not, you can follow these tutorials to downgrade to a moddable version.
 
 Click on these links corresponding to where you own the game to see the tutorials.
 
-- [Oculus Store](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
-- For Steam you have a few options to be able to downgrade.
+- For Steam you can use:
   - [BSManager](https://github.com/Zagrios/bs-manager#readme)
-  - [LegacyInstaller](https://github.com/Goobwabber/LegacyInstaller#readme)
+- For Oculus Store you can use either:
+  - [BSManager](https://github.com/Zagrios/bs-manager#readme)
+  - [OculusDowngrader](https://computerelite.github.io/tools/Oculus/OculusDowngraderGuide.html)
 
 ### Legacy Branch
 
-If you want to downgrade to `1.29.1` you can use the legacy branch method.
+If you want to downgrade to `1.37.1`, `1.34.2`, or `1.29.1` you can use the legacy branch method.
 
 #### Steam Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Right click Beat Saber in the game library
 3. Select Properties
 4. Select Betas in the window
-5. Select the `legacy1.29.1_unity_ver2019.4.28f1 - pre unity upgrade build`
-6. Click ok and exit the window
+5. Select either the `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
+6. Exit the window
 7. Let the download complete then run the game once
 8. Follow the regular modding process
 
-![Steam Branch Setting](/.assets/images/beginners-guide/1291_steambranch.jpg 'Steam Branch Setting')
+![Steam Branch Setting](/.assets/images/beginners-guide/BetaOptions_SteamBranch.jpg 'Steam Branch Setting')
 
 #### Oculus Store Users
 
-1. Open ModAssistant go to the options tab and Uninstall BSIPA
+1. Open your mod installer and uninstall the mod BSIPA
 
-- If you have 1.30+ mods installed, press the Remove All Mods button instead.
+- If you have 1.30+ mods installed, uninstall all of your mods instead.
 
 2. Go to the Beat Saber store page
 3. Scroll down to `Versions + Release Notes`
 4. Click on the word `(LIVE)` next to the current version number
-5. Select the `legacy1.29.1_unity_ver2019.4.28f1: 1.29.1_4575554838` option
+5. Select either the `legacy1.37.1_unity_v2021.3.16f1`, `1.34.2_legacy` or the `legacy1.29.1_unity_ver2019.4.28f1` branch
 6. Let the download complete and run the game once
 7. Follow the regular modding process
 
-![Oculus Branch Setting](/.assets/images/beginners-guide/1291_oculusbranch.jpg 'Oculus Branch Setting')
+![Oculus Branch Setting](/.assets/images/beginners-guide/BetaOptions_OculusBranch.jpg 'Oculus Branch Setting')
 
 ## How to uninstall mods
 
-Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall` button in Mod Assistant or BSManager
+Either remove the `.dll` file from the `Plugins` folder, or click the trash icon button in BSManager
 (after selecting your version, go to the 'Mods' tab).
+
+:::tip NOTE
+If you manually installed a mod, you will have to remove that mod by removing the `.dll` file from
+the `Plugins` folder.
+:::
 
 ## Where to go from here
 
@@ -265,9 +273,16 @@ Either remove the `.dll` file from the `Plugins` folder, or click the `Uninstall
 - [Custom Sabers](/models/custom-sabers.md)
 - [Custom Avatars](/models/custom-avatars.md)
 - [Custom Platforms](/models/custom-platforms.md)
+- [CustomWalls](/models/custom-walls.md)
 - [Play Customs in Multiplayer](https://discord.com/invite/gezGrFG4tz)
 - [Making Mods](/modding/)
 
 ## Have questions?
 
 Visit the support channels in the [BSMG Discord](https://discord.gg/beatsabermods)!
+
+::: tip NOTE
+Those with the `Support` and/or `Mapping Support` roles are volunteers that might choose to help out in their free time.
+The support roles are in recognition of the knowledge and effort they have put forth, but it doesn't
+necessarily mean that they'll be around to help just because they're online.
+:::

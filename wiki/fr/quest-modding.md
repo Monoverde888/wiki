@@ -236,7 +236,7 @@ Si vous ne pouvez pas installer des custom songs depuis votre Quest, vous pouvez
 Si cela ne fonctionne pas, rendez-vous [ici](#l-interface-web-bmbf-ne-charge-pas) pour corriger le problème.
 
 :::tip ASTUCE
-Vous pouvez télécharger des playlists de la même manière. Vous pouvez en trouver sur [BeastSaber](https://bsaber.com/category/playlists/) ou sur des serveurs Discord de la communauté. Vous pouvez également faire les vôtres avec [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) ou [Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/).
+Vous pouvez télécharger des playlists de la même manière. Vous pouvez en trouver sur [BeatSaver](https://beatsaver.com/playlists) ou sur des serveurs Discord de la communauté. Vous pouvez également faire les vôtres avec [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) ou [QuestSongManager](https://github.com/exelix11/QuestSongManager/).
 
 Si vous voulez tester la map que vous avez créée, consultez la section [Tester sur Oculus Quest](/fr/mapping/#tester-sur-oculus-quest) dans la partie du wiki consacrée au mapping pour savoir comment l'emballer pour la tester !
 :::
@@ -251,7 +251,6 @@ Rejoignez la [communauté Qosmetics](https://discord.gg/qosmetics) (en anglais) 
 - [Guides de création des Qosmetics](https://github.com/RedBrumbler/Qosmetics/wiki) (en anglais) - des guides sur la création de vos propres sabres, bloqs et murs personnalisés sur Quest
 - [Site de QuestBoard](https://questmodding.com) - un site pour obtenir des nouvelles sur Beat Saber ainsi que les derniers mods publiés
 - [Serveur Discord QuestBoard](https://discord.gg/P7sUKVnP) - une communauté Quest pour discuter de choses en lien avec Beat Saber, où vous pouvez également obtenir un rôle pour être notifié des nouveaux mods publiés
-- [Corriger les problèmes de synchronisation audio (en anglais)](https://bsaber.com/quest-out-of-sync/)
 - [ScoreSaber](https://scoresaber.com/quest) - classements en jeu pour les chansons personnalisées
 
 ## Dépannage

@@ -236,7 +236,7 @@ Als je geen levels kan installeren vanuit je Quest, kan je dat ook proberen met 
 Als het webinterface niet laad, klik dan [hier](#de-bmbf-webinterface-laad-niet) voor enkele stappen die het probleem kunnen oplossen.
 
 :::tip Hint
-Je kan ook afspeellijsten op dezelfde manier downloaden. Je kan verschillende afspeellijsten vinden op [BeastSaber](https://bsaber.com/category/playlists/) of in verschillende community discords. Je kan ook je eigen afspeellijsten maken met [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) of [Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/).
+Je kan ook afspeellijsten op dezelfde manier downloaden. Je kan verschillende afspeellijsten vinden op [BeatSaver](https://beatsaver.com/playlists) of in verschillende community discords. Je kan ook je eigen afspeellijsten maken met [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager) of [QuestSongManager](https://github.com/exelix11/QuestSongManager).
 
 Als je een level wilt testen, bekijk dan de [nummers testen op een Quest](/nl/mapping/#testing-on-a-quest) sectie in de mapping wiki voor stappen voor het klaar maken om nummers te testen!
 :::
@@ -251,7 +251,6 @@ Wordt lid van de [Qosmetics Community](https://discord.gg/qosmetics) om te aan t
 - [Qosmetics Creatie gidsen](https://github.com/RedBrumbler/Qosmetics/wiki) - Handleidingen om je eigen custom sabers, blokken en muren voor de Quest te maken.
 - [QuestBoard website](https://questmodding.com) - Een plek om gerelateerd nieuws en informatie te krijgen over zowel Beat Saber als de nieuwste mods releases!
 - [QuestBoard discord server](https://discord.gg/P7sUKVnP) - Een Quest community om in rond te hangen en te praten over Beat Saber gerelateerde zaken, je kan ook een rol krijgen om een notificatie te krijgen wanneer er een nieuwe mod wordt vrijgegeven!
-- [Het oplossen van out-of-sync audio.](https://bsaber.com/quest-out-of-sync/)
 - [ScoreSaber](https://scoresaber.com/quest) - In-game scoreborden voor custom levels.
 
 ## Probleemoplossing

@@ -218,7 +218,7 @@ Quest 内でマップをインストールできない場合は、mod のイン�
 これがうまくいかない場合は、 [こちら](#bmbf-web-インターフェイスが読み込まれていません) をクリックしてトラブルシューティングの手順に従ってください 。
 
 :::tip
-プレイリストも同様にダウンロードできます。 様々なプレイリストが[Beastsaber](https://bsaber.com/category/playlists/)やディスコードのチャンネルで見つけることができます。 また、 [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager)や[Playlist Editor Pro](https://beatsaberquest.com/playlisteditor-pro/)を使って自分自身だけのプレイリストを作ることもできます。
+プレイリストも同様にダウンロードできます。 様々なプレイリストが[BeatSaver](https://beatsaver.com/playlists)やディスコードのチャンネルで見つけることができます。 また、 [BMBF Manager](https://github.com/ComputerElite/BM#bmbf-manager)や[QuestSongManager](https://github.com/exelix11/QuestSongManager)を使って自分自身だけのプレイリストを作ることもできます。
 
 作成したマップをテストしたい場合は、 [Quest でテスト](./mapping/#testing-on-a-quest) の譜面作成セクション内の「テスト用」セクションを参照してください。
 :::
@@ -233,7 +233,6 @@ Quest 内でマップをインストールできない場合は、mod のイン�
 - [Qosmetics Creation Guides](https://github.com/RedBrumbler/Qosmetics/wiki) - Quest 用に独自のカスタムセイバー、ノーツ、壁を作成するためのガイド。
 - [Questboard website](https://questmodding.com) - Beat Saber 関連のニュースや最新の mods リリースの情報など！
 - [Questboard discord server](https://discord.gg/P7sUKVnP) - BeatSaber のクエストに関係する情報があります。また Mod がリリースされたときに通知を受けることもできます。
-- [オーディオ同期ズレの修正](https://bsaber.com/quest-out-of-sync/)
 - [ScoreSaber](https://scoresaber.com/quest) - カスタムマップのゲーム内ランキング
 - [ScoreSaber](https://scoresaber.com) - カスタムマップのリーダーボードを閲覧できるウェブサイト。
 

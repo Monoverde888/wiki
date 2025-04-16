@@ -8,16 +8,13 @@ Don't know where to start? Checkout this [crash course](https://docs.google.com/
 
 Alternatively, users who are unsure on how to work with Git can [submit an issue](https://github.com/bsmg/wiki/issues) that contains a link to a shared google document with the text you would like to contribute. Note this will take longer to process than submitting a pull request.
 
-### 🌐 Localization &nbsp;[![Crowdin](https://badges.crowdin.net/bsmg-wiki/localized.svg)](https://crowdin.com/project/bsmg-wiki)
+### 🌐 Localization
 
-Translation efforts are managed using [Crowdin](https://crowdin.com/project/bsmg-wiki).
-There you can see the status of each language available that needs translating.
+Translation efforts are managed using [Lingohub](https://lingohub.com/).
 
 #### Want to Help Translate?
 
 [Apply Here](https://forms.gle/e3BqA3poMjESARe76) and make sure you are in the [BSMG Discord](https://discord.gg/beatsabermods). We will be in touch!
-
-If you don't see your language available on Crowdin you can still [apply](https://forms.gle/e3BqA3poMjESARe76) and we will add it once you are accepted!
 
 ## 🧪 Development
 
@@ -35,8 +32,17 @@ The Wiki has a built-in linter that runs automatically when you push commits to 
 
 Once you have finished making changes, you can either commit them directly using `git` tools, or copy them into the GitHub web interface if you don't know how to use `git`.
 
+## 🖧 Deployment
+
+To deploy your fork of the wiki to GitHub pages (for example to allow others to preview your changes):
+
+1. [Enable GitHub pages from GitHub actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) on your repository.
+2. Once the workflow is complete, any changes made to the `master` branch will be deployed to `https://{username}.github.io/{repository_name}/`, where `{username}` is your GitHub username and `{repository_name}` is the name of your forked repository.
+
 ## 🔐 Licensing
 
 - The code that generates the wiki is licensed under the [MIT License](https://github.com/bsmg/wiki/blob/master/LICENSE).
 - The wiki content is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
-- Translations of the wiki content is owned by the Beat Saber Modding Group (BSMG) and licensed under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
+  - While you own the copyright to content you contribute, you agree to license it in perpetuity under the CC BY-NC-SA 4.0 license. Attribution is tracked by Commit/Pull Request history of the repository.
+- Copyright of the wiki content translations are owned by the respective contributors and licensed in perpetuity under the [Creative Commons BY-NC-SA 4.0 License](https://github.com/bsmg/wiki/blob/master/wiki/LICENSE).
+  - Due to the nature of the translation process contributions are not individually attributed, but are listed as a whole team in the About Us [Translators Page](/wiki/about/translators.md).
